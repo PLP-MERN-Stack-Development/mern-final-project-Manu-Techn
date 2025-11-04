@@ -4,45 +4,54 @@
   box-sizing: border-box;
 }
 
+/* Body styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: grey;
 }
 
+/* Main app container */
 .App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* Utility classes */
+/* === Utility classes === */
+/* Container for consistent content width and centering */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
 }
 
+/* Button styling */
 .btn {
   padding: 0.8rem 2rem;
   border: none;
   border-radius: 25px;
   font-size: 1rem;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
+/* Button variant with gradient */
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100% );
+  background: lightgreen;
   color: white;
+  font-weight: bold;
 }
 
+/* Hover effect fro primary button */
 .btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: black;
+  transform: translateY(-2px); /* Slightly lift button on hover */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  background: darkgreen;
 }
 
-/* Responsive */
+/* ==== Responsive Design ==== */
+/* Mobile styles for smaller screens */
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
