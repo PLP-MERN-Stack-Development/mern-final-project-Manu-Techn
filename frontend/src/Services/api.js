@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api';
+// For production deployment
+const API_BASE = 'https://mind-ease-9wpc.onrender.com/api';
 
 export const getGratitudeEntries = async () => {
     try {

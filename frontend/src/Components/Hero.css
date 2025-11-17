@@ -46,7 +46,7 @@
 /* Hero image styling */
 .hero-img {
   width: 100%;
-  max-width: 400%;
+  max-width: 400px;
   height: 390px;
   object-fit: cover;
   border-radius: 15px;
