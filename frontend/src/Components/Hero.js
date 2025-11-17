@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
                 <div className="hero-image">
                     {/* Main hero image */ }
-                    <img src="/images/It-is-well.jpg" alt="Encouragement" className="hero-img"/>
+                    <img src="/Images/It-is-well.jpg" alt="Encouragement" className="hero-img"/>
                         
                 </div>
             </div>
