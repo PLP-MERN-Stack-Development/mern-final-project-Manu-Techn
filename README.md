@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 # 🌟 Mind Ease - Mental Wellness Application
 
 A full-stack MERN application designed to provide accessible mental wellness tools through mood tracking, journaling, and gratitude practices.
@@ -64,7 +61,7 @@ A full-stack MERN application designed to provide accessible mental wellness too
 
 
 ## Project Structure
-``
+```
 Mind-Ease/
 ├── Backend/
 │   ├── models/
@@ -94,7 +91,7 @@ Mind-Ease/
 │   │   └── index.js
 │   └── package.json
 └── README.md
-``
+```
 
 ### Navigate to backend
 cd Backend
@@ -120,4 +117,3 @@ npm start
 "Taking care of your mental health is an act of self-love"
 
 Built with ❤️ for better mental wellness!
->>>>>>> e841628 (Mind Ease Update)
