@@ -5,7 +5,7 @@ const router = express.Router();
 // Get all gratitude entries
 router.get('/', async (req, res) => {
     try {
-        const entries = (await Gratitude.find()).toSorted({ createdAt: -1 });
+        const entries = (await Gratitude.find()).sort({ createdAt: -1 });
         res.json({
             message: 'Success!',
             data: entries
