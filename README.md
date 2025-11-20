@@ -2,7 +2,12 @@
 
 A full-stack MERN application designed to provide accessible mental wellness tools through mood tracking, journaling, and gratitude practices.
 
-## 🚀 Live Demo
+## 🚀 Live Link
+### backend
+https://mind-ease-9wpc.onrender.com/
+
+### frontend
+https://mind-ease1.vercel.app/
 
 
 ## 📋 Table of Contents
@@ -16,7 +21,6 @@ A full-stack MERN application designed to provide accessible mental wellness too
 - License
 
 ## ✨ Features
-
 ### 🔐 Authentication
 - User registration and login
 - Secure password hashing with bcrypt
@@ -32,12 +36,10 @@ A full-stack MERN application designed to provide accessible mental wellness too
 ### 🎨 User Experience
 - Beautiful, calming color scheme
 - Smooth animations and transitions
-- Mobile-first responsive design
 - Intuitive navigation
 - Professional error handling
 
 ## 🛠️ Tech Stack
-
 ### Frontend
 - **React** - Component-based UI library
 - **CSS3** - Custom styling with animations
@@ -47,12 +49,10 @@ A full-stack MERN application designed to provide accessible mental wellness too
 ### Backend
 - **Node.js** - Runtime environment
 - **Express.js** - Web application framework
-- **MongoDB** - NoSQL database
+- **MongoDB** - Cloud Database (MongoDB Atlas)
 - **Mongoose** - MongoDB object modeling
 - **bcryptjs** - Password hashing
 - **CORS** - Cross-origin resource sharing
-
-## 💻 Installation
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -75,7 +75,7 @@ Mind-Ease/
 │   ├── server.js
 │   └── package.json
 ├── frontend/
-│   ├── public/
+│   ├──public/Images
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── Header.js & .css
@@ -93,27 +93,32 @@ Mind-Ease/
 └── README.md
 ```
 
-### Navigate to backend
-cd Backend
-# Install dependencies
-npm install
+## 💻 Installation
+### 📥 Clone the repository
+- git clone https://github.com/Manu-Techn/Mind-Ease.git
+- cd Mind-Ease
 
-# Environment Configuration
-# Create a .env file in the Backend directory with:
-# MONGODB_URI=mongodb://localhost:27017/mindease
-# PORT=5000
-# JWT_SECRET=your_secret_key_here
+### 🛠️ Navigate to backend
+- cd Backend
 
-# Start the backend server
-npm run dev
+### Install dependencies
+- npm install
 
-### Navigate to frontend
-cd Frontend
-# Install dependencies
-npm install
-# Start the frontend server
-npm start
+### Start the backend server
+- npm run dev
 
-"Taking care of your mental health is an act of self-love"
+### 💻 Navigate to frontend
+- cd frontend
+
+### Install dependencies
+- npm install
+
+### Start the frontend server
+- npm start
+
+### 🙏 Acknowledgements
+💡 Mental health professionals for inspiration.
+
+NOTE: "Taking care of your mental health is an act of self-love."
 
 Built with ❤️ for better mental wellness!
