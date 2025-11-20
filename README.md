@@ -124,7 +124,7 @@ NOTE: "Taking care of your mental health is an act of self-love."
 Built with ❤️ for better mental wellness!
 
 
-=======
+
 # MERN Stack Capstone Project
 
 This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
