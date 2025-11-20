@@ -122,6 +122,8 @@ Mind-Ease/
 NOTE: "Taking care of your mental health is an act of self-love."
 
 Built with ❤️ for better mental wellness!
+
+
 =======
 # MERN Stack Capstone Project
 
